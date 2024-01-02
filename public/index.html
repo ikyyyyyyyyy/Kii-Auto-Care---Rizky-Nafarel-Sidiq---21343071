@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Rizky Nafarel Sidiq | Service Mobil</title>
+  </head>
+  <script src="login.js"></script>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo nav__logo">
+            <a href="#"><img src="img/logo 8.png" alt="logo"  /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-3-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Dashboard</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#price">Harga</a></li>
+          <li><a href="#client">Feedback</a></li>
+          <li><a href="pembelian.html">Pembelian</a></li>
+         
+          
+        </ul>
+      </nav>
+
+
+      <div class="section__container header__container" id="home">
+        <div class="header__content">
+          <h1>Kii Auto Care perawatan Mobil Terbaik</h1>
+          <div class="header__btn">
+            <button class="btn" onclick="scrollToBanner()">Baca Lebih Lanjut</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner__container" id="bannerSection">
+      <div class="banner__card">
+        <h4>Dijamin Mantap Atau Uang Kembali.</h4>
+      </div>
+      <div class="banner__card">
+        <h4>Merawat mobil dan membuat tampak seperti baru.</h4>
+      </div>
+      <div class="banner__image">
+        <img src="img/audi baner.jpg" alt="banner" />
+      </div>
+      <script>
+        function scrollToBanner() {
+          const bannerSection = document.getElementById('bannerSection');
+          bannerSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        </script>
+    </section>
+
+    <section class="section__container experience__container" id="about">
+      <div class="experience__image">
+        <img src="img/bawah utama.jpg" alt="experience" />
+      </div>
+      <div class="experience__content">
+        <p class="section__subheader">Kii Auto Care</p>
+        <h2 class="section__header">
+          Sudah Berpengalaman dalam hal ini selama 5 tahun
+        </h2>
+        <p class="section__description">
+          komitmen untuk menjadi yang terbaik dalam dalam servis mobil  
+          tim kami yang berpengalaman membawa banyak
+          pengalaman untuk memastikan kendaraan Mendapatkan perawatan terbaik. 
+          Percaya pada keahlian kami untuk menjaga mobil tetap berjalan dengan lancar dan aman.
+        </p>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <p class="section__subheader">Kenapa Harus Kii Auto Care</p>
+        <h2 class="section__header">Service & Pelayanan Mobil Terbaik</h2>
+        <p class="section__description">
+          Percayakan untuk menjaga mobil tetap berjalan dengan lancar dan Maksimal.
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <img src="img/sporing.jpeg" alt="service" />
+            <h4>Sporing Ban & Balancing</h4>
+            <p>
+              pengalaman berkendara yang lebih mulus dan umur ban yang lebih panjang 
+              dengan layanan spooring kami
+            </p>
+          </div>
+          <div class="service__card">
+            <img src="img/service listrik.jpeg" alt="service" />
+            <h4>Sistem Kelistrikan</h4>
+            <p>
+              Tingkatkan sistem kelistrikan mobil ke performa puncak 
+            </p>
+          </div>
+          <div class="service__card">
+            <img src="img/service besar.jpeg" alt="service" />
+            <h4>Servive Besar</h4>
+            <p>
+              diagnostik dan teknik untuk memastikan kondisi optimal.
+            </p>
+          </div>
+          <div class="service__card">
+            <img src="img/remap.jpg" alt="service" />
+            <h4>Remap Mobil</h4>
+            <p>
+              Peningkatan performa mobil dengan Remap yang canggih
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="customisation">
+      <div class="section__container customisation__container">
+        <p class="section__subheader">Hasil Kii Auto Care</p>
+        <h2 class="section__header">
+          Pelayanan Mobil yang Dipadukan dengan Pengerjaan yang Baik
+        </h2>
+        <p class="section__description">
+          Tim teknisi dan mekanik yang berdedikasi dan terampil 
+          dalam memberikan layanan terbaik
+        </p>
+        <div class="customisation__grid">
+          <div class="customisation__card">
+            <h4>85</h4>
+            <p>Total Proyek</p>
+          </div>
+          <div class="customisation__card">
+            <h4>165</h4>
+            <p>Transparansi</p>
+          </div>
+          <div class="customisation__card">
+            <h4>463</h4>
+            <p>Proyek Selesai</p>
+          </div>
+          <div class="customisation__card">
+            <h4>1090</h4>
+            <p>Penghargaan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container" id="price">
+      <p class="section__subheader">Paket Promo</p>
+      <h2 class="section__header">Pilihan Rincian Harga</h2>
+      <p class="section__description">
+        Harga yang sangat terjangkau dan masuk di kantong
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <h4>Paket Silver</h4>
+          <h3><sup>Rp</sup>3.000.000,00</h3>
+          <p>Service & Checkup</p>
+          <p>Diagnosa Service</p>
+          <p>Sporing & Balancing</p>
+          <p>Rem & Suspensi</p>
+          <p>AC</p>
+          <p>Service Teratur</p>
+          <button class="btn" id="standardBtn">Beli</button>
+
+          <script>
+            document.getElementById('standardBtn').addEventListener('click', function() {
+              window.location.href = 'pembelian.html'; // Mengarahkan ke halaman pembelian.html
+            });
+          </script>
+        </div>
+        <div class="price__card">
+          <div class="price__card__ribbon">BESTSELLER</div>
+          <h4>Paket Platinum</h4>
+          <h3><sup>Rp</sup>5.000.000,00</h3>
+          <p>Service & Checkup</p>
+          <p>Diagnosa Service</p>
+          <p>Remap</p>
+          <p>Sporing & balancing</p>
+          <p>Diagnosa kelistrikan</p>
+          <p>service Terjadwal</p>
+          <button class="btn" id="goldBtn">Beli</button>
+
+          <script>
+            document.getElementById('goldBtn').addEventListener('click', function() {
+              window.location.href = 'pembelian.html'; // Mengarahkan ke halaman pembelian.html
+            });
+          </script>
+        </div>
+        <div class="price__card">
+          <h4>Paket Emas</h4>
+          <h3><sup>Rp</sup>4.000.000,00</h3>
+          <p>Service & Checkup</p>
+          <p>Diagnosa Service</p>
+          <p>Rem & Suspensi</p>
+          <p>Service Terjadwal</p>
+          <p>Sporing & Balancing</p>
+          <p>AC</p>
+          <button class="btn" id="platinumBtn">Beli</button>
+
+          <script>
+            document.getElementById('platinumBtn').addEventListener('click', function() {
+              window.location.href = 'pembelian.html'; // Mengarahkan ke halaman pembelian.html
+            });
+          </script>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="section__container contact__container">
+        <div class="contact__content">
+          <p class="section__subheader">Kontak Kami</p>
+          <h2 class="section__header">Bayangkan Mobil seperti baru </h2>
+          <p class="section__description">
+            keajaiban memanjakan mobil dengan perawatan yang presisi, 
+            sehingga mobil akan terasa seperti baru.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container testimonial__container" id="client">
+      <br><br><h2 class="section__subheader">Feedback Pelanggan</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <img src="img/Pelanggan 1.jpeg" alt="testimonial" />
+              <br><br>
+              <p>
+                Saya sangat puas dengan pelayanan Kii Auto Care. 
+                Mereka tidak hanya memberikan perawatan yang presisi 
+                pada mobil saya, tetapi juga memberikan layanan 
+                pelanggan yang luar biasa. Tim mereka sangat berdedikasi 
+                dan berpengetahuan tinggi. Setiap kali saya datang, mereka 
+                selalu menjelaskan dengan detail apa yang perlu diperbaiki 
+                dan memberikan solusi yang efektif.
+              </p>
+              <h4>- Lewis Hamilton</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <img src="img/Pelanggan 2.jpeg" alt="testimonial" />
+              <br><br>
+              <p>
+                Saya sudah service disini selama bertahun
+                tahun dan hasil service nya tidak pernah 
+                mengecewakan, mereka sangat berfokus pada 
+                detail dan komitmen atas layanan mereka 
+                mantap jiwa. Harga yang ditawarkan juga sangat 
+                terjangkau untuk kualitas layanan yang diberikan. 
+              </p>
+              <h4>- Olivia Rodrigo</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <h4>Tambahkan Testimoni Anda</h4><br><br>
+              <form id="feedbackForm">
+                <div class="form-group">
+                  <label for="fullName">Nama Lengkap:</label>
+                  <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="telepon">Telepon:</label>
+                  <input type="telepon" id="telepon" name="telepon" required>
+                </div>
+          
+                <div class="form-group">
+                  <label for="feedbackMessage">Feedback:</label>
+                  <textarea id="feedbackMessage" name="feedbackMessage" rows="4" required></textarea>
+                </div>
+          
+                <button type="submit" class="btn">Kirim Feedback</button>
+              </form>
+            </div>
+          </section>
+              
+            </div>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+  
+    <footer class="footer">
+      <div class="section__container subscribe__container">
+        <div class="subscribe__content">
+          <p class="section__subheader">Kii Auto Care</p>
+          <h2 class="section__header">Pelayanan & Kualitas No 1</h2>
+          <p class="section__description">
+            Dapatkan info terbaru, promo dan update dari
+            kii Auto Care
+          </p>
+        </div>
+      </div>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#"><img src="img/logo 8.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            komitmen dalam kesempurnaan servis mobil.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-google-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kiii_nfrel?igshid=MTNiYzNiMzkwZA=="><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Layanan Kami</h4>
+          <ul class="footer__links">
+            <li><a href="#">Mekanik Terlatih</a></li>
+            <li><a href="#">Perawatan Rutin</a></li>
+            <li><a href="#">Solusi Khusus</a></li>
+            <li><a href="#">Harga Kompetitif</a></li>
+            <li><a href="#">Kepuasan Pelanggan</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Info Lebih Lanjut</h4>
+          <ul class="footer__links">
+            <li>
+              <p>
+                Pengalaman Perawatan Mobil
+                Seperti Baru
+              </p>
+            </li>
+            <li>
+              <p>No Hp: <span>081261275452</span></p>
+            </li>
+            <li>
+              <p>Email: <span>ikiifarel@gmail.com</span></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer__bar">
+      Rizky Nafarel Sidiq | 21343071
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

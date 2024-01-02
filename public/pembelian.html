@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pembelian</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Form Pembelian</h1>
+  
+  <!-- Formulir Pembelian -->
+  <form action="/order" method="POST">
+    <!-- Input untuk Nama Pengguna -->
+    <label for="username">Nama Pengguna:</label>
+    <input type="string" id="username" name="username" required>
+    <br><br>
+    
+    <!-- Pilihan Paket -->
+    <label for="package">Pilihan Paket:</label>
+    <select id="package" name="package">
+      <option value="pilih" selected disabled>Pilih Paket</option>
+      <option value="silver">Paket Silver</option>
+      <option value="platinum">Paket Platinum</option>
+      <option value="gold">Paket Emas</option>
+    </select>
+    <br><br>
+    
+    <!-- Informasi Pesanan -->
+    <label for="orderInfo">Informasi Pesanan:</label>
+    <textarea id="orderInfo" name="orderInfo" rows="4" cols="50" required></textarea>
+    <br><br>
+
+    <!-- Menampilkan ID Order -->
+    <div id="orderID"></div>
+
+    <!-- Tombol Submit -->
+    <input type="submit" name="submit" value="Buat Pembelian">
+    <script>
+      function showPurchaseNotification() {
+        alert('Pembelian berhasil!');
+      }
+    </script>
+    <button type="reset" class="btn btn-secondary">Reset</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body, h1, form, label, input, select, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  padding-block: 5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("/img/utama.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+  
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #fff; /* Text color changed to white for better contrast */
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+form:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #4caf50;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#orderID {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #da2e2e;
+}
+
+input[type="submit"], button {
+  background-color: #da2e2e;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #da2e2e;
+}
+
+button {
+  background-color: #ccc;
+  padding: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  form {
+    margin: 15px;
+  }
+}
